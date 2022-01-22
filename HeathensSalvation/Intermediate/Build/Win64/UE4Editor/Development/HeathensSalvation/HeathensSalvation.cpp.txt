@@ -1,0 +1,2 @@
+C:\Users\hayde\Documents\2022GameJamSP\HeathensSalvation\Intermediate\Build\Win64\UE4Editor\Development\HeathensSalvation\Definitions.HeathensSalvation.h
+C:\Users\hayde\Documents\2022GameJamSP\HeathensSalvation\Source\HeathensSalvation\HeathensSalvation.h

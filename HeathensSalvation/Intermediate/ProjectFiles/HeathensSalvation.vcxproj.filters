@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HeathensSalvation.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{452EB0C0-310E-4CD8-9FC8-B7E4FF9101A7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HeathensSalvation.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HeathensSalvationEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2E76C03A-BDAA-4197-B017-BB1E5B4352B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HeathensSalvation">
+      <UniqueIdentifier>{4EC7EAB4-E9A9-4E9A-9511-CD2756106C36}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HeathensSalvation\HeathensSalvation.Build.cs">
+      <Filter>Source\HeathensSalvation</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HeathensSalvation\HeathensSalvation.cpp">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeathensSalvation\HeathensSalvation.h">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeathensSalvation\HeathensSalvationCharacter.cpp">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeathensSalvation\HeathensSalvationCharacter.h">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeathensSalvation\HeathensSalvationGameMode.cpp">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeathensSalvation\HeathensSalvationGameMode.h">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HeathensSalvation\HeathensSalvationPlayerController.cpp">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HeathensSalvation\HeathensSalvationPlayerController.h">
+      <Filter>Source\HeathensSalvation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
