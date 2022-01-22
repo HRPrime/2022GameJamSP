@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Specific to the Unreal Project
+.idea
+.vs
+*.log
+*.ini
+Binaries
+HeathensSalvation.sln
+Intermediate
+DerivedDataCache
+Saved\Logs
+Saved
