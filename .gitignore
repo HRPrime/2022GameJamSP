@@ -35,7 +35,6 @@
 .idea
 .vs
 *.log
-*.ini
 Binaries
 HeathensSalvation.sln
 Intermediate
