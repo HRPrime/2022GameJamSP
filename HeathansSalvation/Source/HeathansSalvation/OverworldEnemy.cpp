@@ -3,12 +3,19 @@
 
 #include "OverworldEnemy.h"
 
+#include "BehaviorTree/BehaviorTreeTypes.h"
+#include "Runtime/Engine/Classes/Engine/World.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
+#include "GameFramework/PlayerController.h"
+
 // Sets default values
 AOverworldEnemy::AOverworldEnemy()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//this->GetMovementComponent()
 }
 
 // Called when the game starts or when spawned

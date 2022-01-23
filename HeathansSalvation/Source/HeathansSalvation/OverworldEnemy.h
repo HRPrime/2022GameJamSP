@@ -3,16 +3,16 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
+#include "GameFramework/Character.h"
 #include "OverworldEnemy.generated.h"
 
 UCLASS()
-class HEATHANSSALVATION_API AOverworldEnemy : public APawn
+class HEATHANSSALVATION_API AOverworldEnemy : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this pawn's properties
+	// Sets default values for this character's properties
 	AOverworldEnemy();
 
 protected:

@@ -10,7 +10,7 @@
 
 AOverworldEnemyController::AOverworldEnemyController(FObjectInitializer const& ObjectInitializer)
 {
-	static ConstructorHelpers::FObjectFinder<UBehaviorTree> obj(TEXT("BehaviorTree'/Game/TopDownCPP/Gameplay/AI/OverworldEnemy_BT.OverworldEnemy_BT'"));
+	static ConstructorHelpers::FObjectFinder<UBehaviorTree> obj(TEXT("BehaviorTree'/Game/TopDownCPP/Blueprints/Gameplay/AI/OverworldEnemy_BT.OverworldEnemy_BT'"));
 	if (obj.Succeeded())
 	{
 		BehaviorTree = obj.Object;
