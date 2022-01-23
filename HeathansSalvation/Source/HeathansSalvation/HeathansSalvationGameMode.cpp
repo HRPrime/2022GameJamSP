@@ -3,6 +3,8 @@
 #include "HeathansSalvationGameMode.h"
 #include "HeathansSalvationPlayerController.h"
 #include "HeathansSalvationCharacter.h"
+#include "MenuHUD.h"
+#include "MenuPlayerController.h"
 #include "UObject/ConstructorHelpers.h"
 
 AHeathansSalvationGameMode::AHeathansSalvationGameMode()
@@ -16,4 +18,7 @@ AHeathansSalvationGameMode::AHeathansSalvationGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+	PlayerControllerClass = AMenuPlayerController::StaticClass();
+	HUDClass = AMenuHUD::StaticClass();
 }
