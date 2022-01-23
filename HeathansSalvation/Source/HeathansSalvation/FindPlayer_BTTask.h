@@ -19,6 +19,8 @@ class HEATHANSSALVATION_API UFindPlayer_BTTask : public UBTTask_BlackboardBase
 	GENERATED_BODY()
 
 public:
-	
+	UFindPlayer_BTTask(FObjectInitializer const& ObjectInitializer);
+
+	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 	
 };
