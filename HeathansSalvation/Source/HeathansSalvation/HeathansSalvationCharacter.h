@@ -36,5 +36,9 @@ private:
 	/** A decal that projects to the cursor location. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UDecalComponent* CursorToWorld;
+
+	class UAIPerceptionStimuliSourceComponent* Stimulus;
+
+	void SetupStimulus();
 };
 

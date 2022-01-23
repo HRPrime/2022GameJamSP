@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
+#include "Perception/AIPerceptionTypes.h"
 #include "OverworldEnemyController.generated.h"
 
 /**
@@ -30,5 +31,15 @@ private:
 
 	class UBlackboardComponent* Blackboard;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= "AI", meta = (AllowPrivateAccess = "true"))
+	class UAISenseConfig_Sight* SightConfig;
+
+	UFUNCTION()
+	void OnUpdate(TArray<AActor*> const& UpdatedActor);
+
+	void SetupPerceptionSystem();
+
+	UFUNCTION()
+	void OnTargetDetected(AActor* Actor, FAIStimulus const Stimulus);
 	
 };
